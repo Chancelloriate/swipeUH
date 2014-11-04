@@ -103,7 +103,6 @@ void attendance()
     }
 
   //detect type of ID and extract ID# from card data
-  //need to test that this works
   if (swipe[11] == ';') //myUH card type. Two leading zeroes on #.
     for(x=3; x<11; x++)
       id[x-3] = swipe[x];
