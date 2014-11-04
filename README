@@ -1,0 +1,22 @@
+               _            _    _ _    _ 
+              (_)          | |  | | |  | |
+  _____      ___ _ __   ___| |  | | |__| |
+ / __\ \ /\ / / | '_ \ / _ \ |  | |  __  |
+ \__ \\ V  V /| | |_) |  __/ |__| | |  | |
+ |___/ \_/\_/ |_| .__/ \___|\____/|_|  |_|
+----------------| |-----------------------
+                |_|                       
+
+swipeUH is a simple C++ program for taking attendance via student ID cards at the University of Houston.
+
+This is done with the use of a card swiper. A student will swipe his or her card while the program is listening for input, then it will extract the student ID from the card data, cross-reference it with a text database of student names and IDs, and output the student's name, ID, and a timestamp to a rolesheet, which is created daily.
+
+Before taking attendance for the first time, it is important to input student data into the program so that it can insert it into the student database. This is done through option 2 when the user starts the program.
+
+I imagine it would be possible to add the functionality of importing student data from an existing file. I don't currently have any plans to add this to the program, but you're welcome to fork this project and add it yourself! 
+
+This program is unique to the University of Houston's Cougar ID system, however it can be easily modified to accommodate any school, business, or organization where each person has ID cards with a magnetic stripe. You're welcome to fork swipeUH and make it your own; just be sure to keep the GPLv3 license.
+
+Author information:
+Christopher Chancellor
+chancelloriate@gmail.com
