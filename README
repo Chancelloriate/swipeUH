@@ -15,7 +15,7 @@ Before taking attendance for the first time, it is important to input student da
 
 I imagine it would be possible to add the functionality of importing student data from an existing file. I don't currently have any plans to add this to the program, but you're welcome to fork this project and add it yourself! 
 
-This program is unique to the University of Houston's Cougar ID system, however it can be easily modified to accommodate any school, business, or organization where each person has ID cards with a magnetic stripe. You're welcome to fork swipeUH and make it your own; just be sure to keep the GPLv3 license.
+This program is unique to the University of Houston's Cougar ID system, however it can be easily modified to accommodate any school, business, or organization where each person has an ID card with a magnetic stripe. You're welcome to fork swipeUH and make it your own; just be sure to keep the GPLv3 license.
 
 Author information:
 Christopher Chancellor
